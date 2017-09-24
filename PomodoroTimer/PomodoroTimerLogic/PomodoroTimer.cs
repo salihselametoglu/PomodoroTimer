@@ -18,6 +18,7 @@ namespace PomodoroTimerLogic
         public PomodoroTimer()
         {
             _schedulerTimer = new SchedulerTimer();
+
             _schedulerTimer.Event =
                 () =>
                 {
